@@ -1,0 +1,31 @@
+{
+    "response": [
+        {
+            "maintainer": "DagobertX",
+            "oem": "OnePlus",
+            "device": "OnePlus 15",
+            "filename": "EvolutionX-16.0-20260605-infiniti-11.8-Unofficial.zip",
+            "download": "https://sourceforge.net/projects/evolution-x-oneplus-15/files/infiniti/16/EvolutionX-16.0-20260605-infiniti-11.8-Unofficial.zip/download",
+            "timestamp": 0,
+            "md5": "0123456789abcdef0123456789abcdef",
+            "sha256": "f853a049c6ad3067d6e570f038caeb29562d1e947a49e40cbcee5f9bcf5a4be1",
+            "size": 0,
+            "version": "11.8",
+            "buildtype": "userdebug",
+            "forum": "https://xdaforums.com/t/rom-16-qpr2-infiniti-unofficial-evolution-x-11-8-06-21-26-gapps.4790883/",
+            "firmware": "",
+            "paypal": "",
+            "github": "Evolution-X-OnePlus-15",
+            "initial_installation_images": [
+              "boot",
+              "init_boot",
+              "vbmeta",
+              "vendor_boot"
+              "recovery",
+            ],
+            "extra_images": [
+              "super_empty"
+            ]
+        }
+    ]
+}

@@ -16,7 +16,7 @@ vic_vanilla_webhook = os.environ["VIC_VANILLA_WEBHOOK"]
 
 def get_commit_hash(branch, codename):
     path = f"changelogs/{codename}.txt"
-    api_url = f"https://api.github.com/repos/Evolution-X/OTA/commits?path={path}&sha={branch}"
+    api_url = f"https://api.github.com/repos/Evolution-X-OnePlus-15/OTA/commits?path={path}&sha={branch}"
     response = requests.get(api_url)
     response.raise_for_status()
     commits = response.json()
@@ -76,7 +76,7 @@ def webhook_send():
         color = 0xffe7c4
     else:
         color = 0x2986cc
-    evo_org_tumbnail = f"https://raw.githubusercontent.com/Evolution-X/www_gitres/refs/heads/main/devices/images/{codename}.webp"
+    evo_org_tumbnail = f"https://raw.githubusercontent.com/Evolution-X-OnePlus-15/www_gitres/refs/heads/main/devices/images/{codename}.webp"
     if requests.get(evo_org_tumbnail).status_code == 404:
         thumbnail = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7DK6a--HvqADA_u3mGjXSVUvxxZ5sw3x9Sw&s"
     else:
@@ -89,7 +89,7 @@ def webhook_send():
             📦 • **Version**: {version}
             🕒 • **Build date**: {datetime.fromtimestamp(build_date, tz=None).date()}
             📎 • **Build size**: {humanize(file_size)}
-            🗞️ • **[Changelog](https://raw.githubusercontent.com/Evolution-X/OTA/{commit_hash}/changelogs/{codename}.txt)**
+            🗞️ • **[Changelog](https://raw.githubusercontent.com/Evolution-X-OnePlus-15/OTA/{commit_hash}/changelogs/{codename}.txt)**
             <:Evo:670530693985730570> • **Check [device's infos](https://evolution-x.org/devices/{codename}) directly on our website!**\n
             
             ⬇️ [Download link]({download_link}) ⬇️\n"""

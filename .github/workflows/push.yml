@@ -15,7 +15,7 @@ on:
 
 jobs:
   process-json-files:
-    if: github.repository == 'Evolution-X/OTA'
+    if: github.repository == 'Evolution-X-OnePlus-15/OTA'
     runs-on: ubuntu-latest
 
     steps:
