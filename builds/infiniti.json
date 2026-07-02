@@ -20,8 +20,8 @@
               "boot",
               "init_boot",
               "vbmeta",
-              "vendor_boot"
-              "recovery",
+              "vendor_boot",
+              "recovery"
             ],
             "extra_images": [
               "super_empty"
