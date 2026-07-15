@@ -3,7 +3,6 @@ This is Android 16 QPR2 with July 2026 security patches
 Notes:
 ==============================
 - LineageOS-based source. Signed build.
-- Clean flash is recommended
 - OOSCAM and releated apps are still beta and not fully functional
 
 Device changes:
@@ -12,13 +11,17 @@ Device changes:
 - Added OOSCAM
 - Added some OOS goodies
 - Added high touch polling rate
+- Added Expanded padding
 - Fixed pocket mode
 - Fixed auto-brightness
 - Fixed heating
 - Various fixes
 
-Notable ROM changes
+Notable ROM changes 07/15:
 ==============================
+Evolver: trickystore: sync default target modes with TEESimulator
+Evolver: trickystore: expand patch date dialog to multi-line format
+Evolver: pif: preserve per-package patch config on canary fetch
 [BUGFIX] SelfRemovingPreference: set visibility at early stage
 [temp] ProfileSelectFragment: adjust 16 QPR3's canHaveProfile logic until profiles_for_all
 [TMP] LineageParts: Comment out some items added in Evolver
