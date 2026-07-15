@@ -23,10 +23,10 @@
         "init_boot",
         "vbmeta",
         "vendor_boot",
-        "recovery"
+        "recovery",
       ],
       "extra_images": [
-        "super_empty"
+        "super_empty",
         "magisk_init_boot.img"
       ]
     }
