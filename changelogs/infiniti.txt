@@ -4,18 +4,35 @@ Notes:
 ==============================
 - LineageOS-based source. Signed build.
 - OOSCAM and releated apps are still beta and not fully functional
+- OnePlus Camera is still not fully fixed. Some modes or features may still crash, and post-processing may still fail in some cases.
+- Not fully csynced with Lineage-SM8850 BQS swapped to OOSCAM
+- If your on EFISP there is no need to reflash ABL!
+- LTPO is a work in progress
+- PhoneManager App permission / Block suspicious app activities not working
+
+- Prefere a clean flash or at least flash new img files!!!!
 
 Device changes:
 ==============================
-- Update to Evolution X 11.9
-- Added OOSCAM
-- Added some OOS goodies
+- Fully synced with latest changes: Evolution X 11.9 July security patch
+- Synced with latest KoaaN changes
+- Added OOSCAM and some OOS goodies
 - Added high touch polling rate
-- Added Expanded padding
+- Added expanded padding
+- Added gamebar
+- Added OTA update support for unofficial builds
+- Enabled remote key provisioning (for gbl-chainload / EFISP exploit)
 - Fixed pocket mode
 - Fixed auto-brightness
+- Fîxed AOD
 - Fixed heating
-- Various fixes
+- Fully switched to infiniti blobs and updates to OnePlus 15 (CPH2747_16.0.8.300(EX01)
+- pin 16.0.5.703 abl.img (for EFISP exploit)
+- Shipped with custom EVO boot/fastboot image
+- Shipped with prebuilt OOSS IR Consumer
+- Shipped with KMInstallBox handsy wile using RKP mod
+- Some under the hood changes
+- Various fixes and some massive improvmends on battery backup
 
 Notable ROM changes 07/15:
 ==============================
